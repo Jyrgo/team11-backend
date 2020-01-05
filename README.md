@@ -18,3 +18,6 @@ This project was written to gain understanding about writing a java backend serv
 * Lombok
 * Gradle
 * Spring Data JPA
+
+## Deploying this app to the server
+If you wish to deploy this application to your server I have written a [detailed guide](https://github.com/Jyrgo/team11-backend/blob/master/ServerSetup.md) on the subject.
