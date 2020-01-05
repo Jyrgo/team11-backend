@@ -9,4 +9,12 @@ This project was written to gain understanding about writing a java backend serv
 5. Run the gradle build scripts.
 6. Run the project.
 
-
+## Technologies used in the project 
+* Java Spring boot 
+* H2 database
+* Spring security 
+* JWT
+* Mockito 
+* Lombok
+* Gradle
+* Spring Data JPA
