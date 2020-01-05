@@ -1,0 +1,38 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+compile:
+  group: 'io.springfox'
+  name: 'springfox-swagger2'
+  version: '2.0.1'
+
+spring:
+  jackson:
+    default-property-inclusion: non_null
+  jpa:
+    properties:
+      database-platform: org.hibernate.dialect.H2Dialect
+      hibernate:
+        temp:
+          use_jdbc_metadata_defaults : false
+    hibernate:
+      ddl-auto: none
+  datasource:
+    #url: jdbc:postgresql://localhost:4040/gamesdb
+    #driver-class-name: org.postgresql.Driver
+    #username: root
+    #password: root
+    url: jdbc:h2:~/team11;AUTO_SERVER=TRUE
+    driverClassName: org.h2.Driver
+    username: test
+    password: test
+  h2:
+    console:
+      enabled: true
+
+app:
+  jwt:
+    secret: team11supersecretpassword123!
+    durationMin: 120
